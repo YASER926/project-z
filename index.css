@@ -13,7 +13,7 @@ img{
 
 header .imagess{
     width: 100%;
-    height: 400px;
+    height: 100%;
     background-image: url("./banner-post-bus-giuongnam.jpg");
     background-size: contain;
     background-repeat: no-repeat;
