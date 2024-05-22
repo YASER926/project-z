@@ -9,7 +9,7 @@ body {
     font-family: "Poppins";
 }
 
-@media (width <= 600px) {
+@media (width <= 1000px) {
     body {padding: 0;}
     .card {
         margin: 0px;
@@ -18,12 +18,12 @@ body {
     }
 }
 
-@media (width > 600px) {
+@media (width > 1000px) {
     body {padding: 0;}
     .card {
         margin: 0px;
         /* width: 94%; */
-        width: 500px;
+        width: 900px;
     }
 }
 
