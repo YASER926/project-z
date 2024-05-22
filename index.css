@@ -18,7 +18,7 @@ body {
     }
 }
 
-@media (width >= 500px) {
+@media (width > 500px) {
     body {padding: 0;}
     .card {
         margin: 0px;
