@@ -9,7 +9,7 @@ body {
     font-family: "Poppins";
 }
 
-@media (width <= 500px) {
+@media (width <= 1000px) {
     body {padding: 0;}
     .card {
         margin: 0px;
@@ -18,12 +18,12 @@ body {
     }
 }
 
-@media (width > 500px) {
+@media (width > 1000px) {
     body {padding: 0;}
     .card {
         margin: 0px;
         /* width: 94%; */
-        width: 500px;
+        width: 900px;
     }
 }
 
@@ -78,14 +78,14 @@ body {
     top: 30px;
     left: 50%;
     translate: -50% 0;
-    width: 128px;
-    height: 128px;
+    width: 172px;
+    height: 172px;
 }
 
 .card h2 {
     font-size: 22px;
     font-weight: 400;
-    margin: 0 0 38px;
+    margin: 50px 0 38px;
     color: rgb(0 0 0 / 38%);
 }
 
@@ -105,6 +105,7 @@ body {
 
 .form > input {
     border-radius: 24px;
+    font-size: 24px;
 
     border: 0;
     padding: 0 24px;
@@ -118,6 +119,7 @@ body {
 
 .form > button {
     border-radius: 24px;
+    font-size: 24px;
 
     border: 0;
     color: #f9f9f9;
